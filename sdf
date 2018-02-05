@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int s = 0;
+    int v = 0;
+
+    printf("Zadaj sirku: ");
+    scanf("%d",&s);
+    printf("Zadaj vysku: ");
+    scanf("%d", &v);
+
+    for (int i = v; i > 0; i--) {
+
+            for (int j = s; j > 0; j--) {
+                printf("*");
+            }
+
+     printf("\n");
+}
+
+    return 0;
+}
